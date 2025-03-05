@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/"/>
+    <meta charset="utf-8"/>
+    <style>
+      @import url(https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap);
+      @import url(https://fonts.googleapis.com/css?family=Roboto);
+      html, body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        min-height: 100vh;
+        font-family: 'Space Grotesk', sans-serif;
+      }
+      h1 {
+        margin: unset;
+        font-size: 4rem;
+      }
+    </style>
+    <link href="manifest.json" rel="manifest"/>
+    <script async src="flutter_bootstrap.js"></script>
+    <!--$-->
+    <title>About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--/-->
+    <script src="pages/about.client.dart.js" defer></script>
+    <style>
+      @import url(https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap);
+      @import url(https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap);
+      @import url(https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap);
+      .btn-container {
+        display: flex;
+      }
+      .btn-primary-black {
+        padding: 20px 35px;
+        border-radius: 14px;
+        color: #FFFFFF;
+        font-family: 'Space Grotesk', 'Andale Mono';
+        font-size: 20px;
+        background-color: #191A23;
+      }
+      .header-web {
+        display: flex;
+        width: 100vw;
+      }
+      .header-web-padding {
+        padding: 70px 100px;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+      }
+      .text-header-web {
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+      }
+      .w500-60-custom {
+        font-family: 'Space Grotesk', 'Andale Mono';
+        font-size: 60px;
+        font-weight: 500;
+      }
+      .w400-20-custom {
+        font-family: 'Space Grotesk', 'Andale Mono';
+        font-size: 20px;
+        font-weight: 400;
+      }
+      .list-logo-container {
+        display: flex;
+        width: 100vw;
+        height: 48px;
+        overflow: hidden;
+      }
+      .list-logo-content {
+        padding-left: 100px;
+        padding-right: 100px;
+        display: flex;
+        width: 100%;
+        height: 48px;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .list-logo-content img {
+        max-width: 100px;
+        max-height: 100%;
+      }
+      .counter {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-top-color: #01589B;
+        border-bottom-color: #01589B;
+        border-top-width: 2px;
+        border-bottom-width: 2px;
+        align-items: center;
+      }
+      .counter button {
+        display: flex;
+        width: 2em;
+        height: 2em;
+        border: unset;
+        border-radius: 2em;
+        cursor: pointer;
+        font-size: 2rem;
+        background-color: transparent;
+        justify-content: center;
+        align-items: center;
+      }
+      .counter button:hover {
+        background-color: #0001;
+      }
+      .counter span {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        box-sizing: border-box;
+        min-width: 2.5em;
+        color: #01589B;
+        font-size: 4rem;
+        text-align: center;
+      }
+      .header-container {
+        width: 100vw;
+      }
+      .head_padding {
+        padding-top: 66px;
+        padding-left: 100px;
+        padding-right: 100px;
+        display: flex;
+        height: 68px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .nav-menu a {
+        margin-left: 20px;
+        margin-right: 20px;
+        color: black;
+        font-family: 'Space Grotesk', 'Andale Mono';
+        font-size: 20px;
+        font-weight: 400;
+        text-decoration: none;
+      }
+      .nav-menu  {
+        display: flex;
+      }
+      .language-header {
+        padding-left: 15px;
+        padding-right: 15px;
+        display: flex;
+        height: 68px;
+        border: solid #191A23 1px;
+        border-radius: 14px;
+        color: #191A23;
+        font-family: 'Space Grotesk', 'Andale Mono';
+        font-size: 20px;
+        font-weight: 400;
+        text-decoration: none;
+        align-items: center;
+      }
+      .nav-menu div {
+        display: flex;
+        align-items: center;
+      }
+      ol {
+        max-width: 500px;
+      }
+      .main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      .main section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <div class="header-container">
+          <div class="head_padding">
+            <img style="width: 36px; height: 36px" src="images/icon_primary_web.svg"/>
+            <nav class="nav-menu">
+              <div><a href="/">About us</a></div>
+              <div><a href="/">Services</a></div>
+              <div><a href="/">Contact</a></div>
+              <div><a href="/">Careers</a></div>
+              <div class="language-header"><a href="/about">English</a></div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!--@pages/about-->
+      <section>
+        <ol>
+          <li>
+            <h3>📖 Documentation</h3>
+            Jaspr's 
+            <a href="https://docs.jaspr.site">official documentation</a>
+             provides you with all information you need to get started.
+          </li>
+          <li>
+            <h3>💬 Community</h3>
+            Got stuck? Ask your question on the official 
+            <a href="https://discord.gg/XGXrGEk4c6">Discord server</a>
+             for the Jaspr community.
+          </li>
+          <li>
+            <h3>📦 Ecosystem</h3>
+            Get official packages and integrations for your project like jaspr_router, jaspr_tailwind or jaspr_riverpod. Find packages built for Jaspr on pub.dev using the 
+            <a href="https://pub.dev/packages?q=topic%3Ajaspr">#jaspr</a>
+             topic, or publish your own.
+          </li>
+          <li>
+            <h3>💙 Support Jaspr</h3>
+            If you like Jaspr, consider starring us on 
+            <a href="https://github.com/schultek/jaspr">Github</a>
+             and tell your friends.
+          </li>
+        </ol>
+      </section>
+      <!--/@pages/about-->
+    </div>
+  </body>
+</html>
